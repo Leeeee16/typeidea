@@ -114,8 +114,8 @@ class PostAdmin(BaseOwnerAdmin):
     operator.short_description = '操作'
 
     # 静态资源引入
-    class Media:
-        css = {
-            'all': ("https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css", ),
-        }
-        js = ('http://cdn.bootcss.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.js', )
+    # class Media:
+    #     css = {
+    #         'all': ("https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css", ),
+    #     }
+    #     js = ('http://cdn.bootcss.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.js', )
