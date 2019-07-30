@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django.contrib.admin.models import LogEntry
 from django.urls import reverse
 from django.utils.html import format_html
 
@@ -99,6 +100,7 @@ class PostAdmin(BaseOwnerAdmin):
             'fields': ('tag',),
         })
     )
+
     # filter_horizontal = ('tag', )
     # filter_vertical = ('tag', )
 
@@ -119,3 +121,8 @@ class PostAdmin(BaseOwnerAdmin):
     #         'all': ("https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css", ),
     #     }
     #     js = ('http://cdn.bootcss.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.js', )
+
+
+@admin.register(LogEntry, site=custom_site)
+class LogEntryAdmin(admin.ModelAdmin):
+    list_display = ['object_repr', 'object_id', 'action_flag', 'user', 'change_message']
