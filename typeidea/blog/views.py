@@ -7,35 +7,18 @@ from config.models import SideBar
 
 class CommonViewMixin:
     """用来处理通用数据"""
+
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context.update({
-            'sidebars': self.get_siderbars(),
+            'sidebars': SideBar.get_all(),
         })
-        context.update(self.get_navs())
+        context.update(Category.get_navs(Category))
         return context
 
-    def get_siderbars(self):
-        return SideBar.objects.filter(status=SideBar.STATUS_SHOW)
 
-    def get_navs(self):
-        categories = Category.objects.filter(status=Category.STATUS_NORMAL)
-        nav_categories = []
-        normal_categories = []
-        for cate in categories:
-            if cate.is_nav:
-                nav_categories.append(cate)
-            else:
-                normal_categories.append(cate)
-
-        return {
-            'nav': nav_categories,
-            'categories': normal_categories,
-        }
-
-
-class IndexView(ListView):
-    queryset = Post.objects.filter(status=Post.STATUS_NORMAL)
+class IndexView(CommonViewMixin, ListView):
+    queryset = Post.latest_posts(Post)
     paginate_by = 5  # 每页的数量
     context_object_name = 'post_list'
     template_name = 'blog/list.html'
@@ -76,7 +59,7 @@ class TagView(IndexView):
 
 
 class PostDetailView(CommonViewMixin, DetailView):
-    queryset = Post.objects.filter(status=Post.STATUS_NORMAL)
+    queryset = Post.latest_posts(Post)
     template_name = 'blog/detail.html'
     context_object_name = 'post'
     pk_url_kwarg = 'post_id'

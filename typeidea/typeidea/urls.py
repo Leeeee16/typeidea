@@ -18,7 +18,7 @@ from django.contrib import admin
 
 from blog.views import (
     IndexView, CategoryView, TagView,
-    PostDetailView
+    PostDetailView,
 )
 from config.views import links
 from .custom_site import custom_site

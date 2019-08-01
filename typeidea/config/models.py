@@ -62,6 +62,9 @@ class SideBar(models.Model):
     def __str__(self):
         return self.title
 
+    def _render_latest(self):
+        pass
+
     @classmethod
     def get_all(cls):
         return cls.objects.filter(status=cls.STATUS_SHOW)
@@ -69,7 +72,7 @@ class SideBar(models.Model):
     @property
     def content_html(self):
         """直接渲染模板"""
-        from blog.models import Post
+        from blog.models import Post  # 避免循环使用
         from comment.models import Comment
 
         result = ''
