@@ -35,6 +35,7 @@ class CommentForm(forms.ModelForm):
     )
 
     def clean_content(self):
+        # 使用cleaned_content方法来控制评论的长度，如果内容少，则直接抛出异常
         content = self.cleaned_data.get('content')
         if len(content) < 10:
             raise forms.ValidationError('内容长度怎么能这么短呢！！！')

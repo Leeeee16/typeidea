@@ -12,7 +12,8 @@
         {% for comment in comment_list %}
         <li class="list-group-item">
             <div class="nickname">
-                <a href="{{ comment.website }}">{{ comment.nickname }}</a> <span>{{ comment.created_time }}</span>
+                <a href="{{ comment.website }}">{{ comment.nickname }}</a>
+                <span>{{ comment.created_time }}</span>
             </div>
             <div class="comment-content">
                 {% autoescape off %}
