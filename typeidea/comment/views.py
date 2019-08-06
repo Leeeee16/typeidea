@@ -12,6 +12,8 @@ class CommentView(TemplateView):
         comment_form = CommentForm(request.POST)
         target = request.POST.get('target')
 
+        # 通过验证后，保存数据到instance
+        # instance.save方法把数据保存到数据库
         if comment_form.is_valid():
             instance = comment_form.save(commit=False)
             instance.target = target

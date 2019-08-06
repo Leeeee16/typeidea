@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
 from django.db import models
+import mistune
 
 
 class Category(models.Model):
@@ -84,12 +85,18 @@ class Post(models.Model):
     pv = models.PositiveIntegerField(default=1)
     uv = models.PositiveIntegerField(default=1)
 
+    content_html = models.TextField(verbose_name="正文html代码", blank=True, editable=False)
+
     class Meta:
         verbose_name = verbose_name_plural = "文章"
-        # ordering = ['-id']  # 根据id进行降序排列
+        ordering = ['-id']  # 根据id进行降序排列
 
     def __str__(self):
         return self.title
+
+    def save(self, *args, **kwargs):
+        self.content_html = mistune.markdown(self.content)
+        super().save(*args, **kwargs)
 
     @staticmethod
     def get_by_tag(tag_id):
@@ -114,14 +121,13 @@ class Post(models.Model):
         else:
             post_list = category.post_set.filter(status=Post.STATUS_NORMAL) \
                 .select_related('owner', 'category')
-
         return post_list, category
 
     @staticmethod
     def latest_posts(cls, with_related=True):
         queryset = cls.objects.filter(status=cls.STATUS_NORMAL)
-        if with_related:
-            queryset = queryset.select_related('owner', 'category')
+        # if with_related:
+        #     queryset = queryset.select_related('owner', 'category')
         return queryset
 
     @classmethod

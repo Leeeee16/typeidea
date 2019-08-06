@@ -12,8 +12,11 @@
     </div>
     <hr/>
     <p>
-        {{ post.content }}
+        {% autoescape off %}
+        {{ post.content_html }}
+        {% endautoescape %}
     </p>
     {% endif %}
-{% comment_block request.path %}
+
+    {% comment_block request.path %}
 {% endblock %}
