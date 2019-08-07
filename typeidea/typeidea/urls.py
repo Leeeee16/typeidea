@@ -43,12 +43,11 @@ urlpatterns = [
     url(r'^comment/$', CommentView.as_view(), name='comment'),
     url(r'^rss|feed/', LatestPostFeed(), name='rss'),
     url(r'^sitemap\.xml$', sitemap_views.sitemap, {'sitemaps': {'posts': PostSitemap}}),
-    # url(r'^mdeditor/', include('mdeditor.urls')),
+    url(r'^mdeditor/', include('mdeditor.urls')),
     url(r'^category-autocomplete/$', CategoryAutocomplete.as_view(),
         name='category-autocomplete'),
     url(r'^tag-autocomplete/$', TagAutocomplete.as_view(), name='tag-autocomplete'),
-]
+    # url(r'^ckeditor/', include('ckeditor_uploader.urls')),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-# if settings.DEBUG:
-#     # static files (images, css, javascript, etc.)
-#     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
