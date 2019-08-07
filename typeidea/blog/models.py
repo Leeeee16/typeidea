@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.db import models
 from django.utils.functional import cached_property
 
-from mdeditor.fields import MDTextField
+# from mdeditor.fields import MDTextField
 
 
 class Category(models.Model):
@@ -77,12 +77,12 @@ class Post(models.Model):
 
     title = models.CharField(max_length=255, verbose_name="标题")
     desc = models.CharField(max_length=1024, verbose_name="摘要")
-    # content = models.TextField(verbose_name="正文", help_text="正文必须为MarkDown格式")
-    content = MDTextField(verbose_name="正文", help_text="必须为Markdown")
+    content = models.TextField(verbose_name="正文", help_text="正文必须为MarkDown格式")
+    # content = MDTextField(verbose_name="正文", help_text="必须为Markdown")
     status = models.PositiveIntegerField(default=STATUS_NORMAL,
                                          choices=STATUS_ITEMS, verbose_name="状态")
     category = models.ForeignKey(Category, verbose_name="分类")
-    tag = models.ForeignKey(Tag, verbose_name="标签")
+    tag = models.ManyToManyField(Tag, verbose_name="标签")
     owner = models.ForeignKey(User, verbose_name="作者")
     created_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
 

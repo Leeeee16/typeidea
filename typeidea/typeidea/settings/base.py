@@ -43,7 +43,9 @@ INSTALLED_APPS = [
 
     'xadmin',
     'crispy_forms',
-    'mdeditor',  # 富文本编辑器
+    'ckeditor',  # 富文本编辑器
+    'dal',
+    'dal_select2',  # 以上两个为django-autocomplete-light组件
 
 ]
 
@@ -60,8 +62,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'typeidea.urls'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
-MEDIA_URL = '/media/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
+# MEDIA_URL = '/media/'
 
 THEME = 'bootstrap'
 
@@ -70,6 +72,16 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'themes', THEME, "static")
 ]
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',
+        'height': 300,
+        'width': 800,
+        'tabSpaces': 4,
+        'extraPlugins': 'codesnippet',  # 配置代码插件
+    }
+}
 
 TEMPLATES = [
     {

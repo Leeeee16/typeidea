@@ -19,6 +19,7 @@ from django.conf import settings
 from django.conf.urls import url, include
 from django.conf.urls.static import static
 from django.contrib.sitemaps import views as sitemap_views
+from .autocomplete import CategoryAutocomplete, TagAutocomplete
 
 from blog.views import (
     IndexView, CategoryView, TagView,
@@ -42,10 +43,12 @@ urlpatterns = [
     url(r'^comment/$', CommentView.as_view(), name='comment'),
     url(r'^rss|feed/', LatestPostFeed(), name='rss'),
     url(r'^sitemap\.xml$', sitemap_views.sitemap, {'sitemaps': {'posts': PostSitemap}}),
-
-    url(r'^mdeditor/', include('mdeditor.urls')),
+    # url(r'^mdeditor/', include('mdeditor.urls')),
+    url(r'^category-autocomplete/$', CategoryAutocomplete.as_view(),
+        name='category-autocomplete'),
+    url(r'^tag-autocomplete/$', TagAutocomplete.as_view(), name='tag-autocomplete'),
 ]
 
-if settings.DEBUG:
-    # static files (images, css, javascript, etc.)
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# if settings.DEBUG:
+#     # static files (images, css, javascript, etc.)
+#     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
