@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '7(#*2ofhdk3wg^us_1j+=y@6)yo35+ec23kqmpk$(&(#i6hrwm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'mdeditor',
     'dal',
     'dal_select2',  # 以上两个为django-autocomplete-light组件
-
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -65,8 +65,9 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'typeidea.urls'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-# CKEDITOR_UPLOAD_PATH = "article_images"
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
+
+DEFAULT_FILE_STORAGE = 'typeidea.storage.WatermarkStorage'
 
 
 THEME = 'bootstrap'
@@ -143,4 +144,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATIC_URL = '/static/'
+XADMIN_TITLE = 'Typeidea管理后台'
+XADMIN_FOOTER_TITLE = 'power by lqy'
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 2,
+}

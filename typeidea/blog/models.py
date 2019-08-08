@@ -91,6 +91,8 @@ class Post(models.Model):
 
     content_html = models.TextField(verbose_name="正文html代码", blank=True, editable=False)
 
+    # is_md = models.BooleanField(default=False, verbose_name='Markdown语法')
+
     class Meta:
         verbose_name = verbose_name_plural = "文章"
         ordering = ['-id']  # 根据id进行降序排列
@@ -99,7 +101,12 @@ class Post(models.Model):
         return self.title
 
     def save(self, *args, **kwargs):
-        self.content_html = mistune.markdown(self.content)
+        self.content_html = mistune.markdown(self.content,
+                                             extensions=[
+                                                 'markdown.extensions.extra',
+                                                 'markdown.extensions.codehilite',
+                                                 'markdown.extensions.toc',
+                                             ])
         super().save(*args, **kwargs)
 
     # @cached_property
