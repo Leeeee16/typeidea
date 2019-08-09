@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bc400e-138e-40a8-b979-c96cd0328d28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/apis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/typeidea/storage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/typeidea/uploads/editor/mmexport1550596370587_20190807154729211051.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/453cea5e-1bc5-43b6-a547-f6766edd39ad.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c0e750c-f9c0-4aca-b12a-c0942525cb88.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/62391282-9fe0-4cde-bd03-f7f6d1376e66.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d18dc0b8-a7bf-4ce1-871c-8bec4232e66f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/typeidea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/typeidea.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/adminforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adminforms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/media/article_images/2019/08/07/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/uploads/editor/4_20190807154722444741.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/media/editor/4_20190807144616423956.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/settings/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/settings/develop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,13 +43,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="blog_post: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -70,47 +54,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/typeidea/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="152" column="1" lean-forward="true" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2228">
+              <caret line="152" column="1" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/apis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+        <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_user_groups">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typeidea/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="e#642#655#0" expanded="true" />
-              </folding>
+        <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_user_user_permissions">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_group_permissions">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_permission">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
@@ -170,7 +162,6 @@
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/blog/middleware/user_id.py" />
         <option value="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/blog/detail.html" />
-        <option value="$PROJECT_DIR$/config/models.py" />
         <option value="$PROJECT_DIR$/blog/rss.py" />
         <option value="$PROJECT_DIR$/blog/sitemap.py" />
         <option value="$PROJECT_DIR$/typeidea/themes/bootstrap/sitemap.xml" />
@@ -178,24 +169,26 @@
         <option value="$PROJECT_DIR$/config/adminx.py" />
         <option value="$PROJECT_DIR$/comment/adminx.py" />
         <option value="$PROJECT_DIR$/blog/adminx.py" />
-        <option value="$PROJECT_DIR$/typeidea/settings/develop.py" />
         <option value="$PROJECT_DIR$/typeidea/autocomplete.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/console.sql" />
         <option value="$PROJECT_DIR$/blog/adminforms.py" />
-        <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/blog/base.html" />
         <option value="$PROJECT_DIR$/typeidea/storage.py" />
         <option value="$PROJECT_DIR$/typeidea/settings/base.py" />
-        <option value="$PROJECT_DIR$/typeidea/urls.py" />
         <option value="$PROJECT_DIR$/blog/apis.py" />
         <option value="$PROJECT_DIR$/blog/serializers.py" />
+        <option value="$PROJECT_DIR$/typeidea/urls.py" />
+        <option value="$PROJECT_DIR$/blog/models.py" />
+        <option value="$PROJECT_DIR$/config/models.py" />
+        <option value="$PROJECT_DIR$/typeidea/settings/develop.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="652" />
+    <option name="y" value="21" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -213,18 +206,7 @@
             <path>
               <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,12 +304,14 @@
       <workItem from="1565077238052" duration="6422000" />
       <workItem from="1565095540158" duration="8871000" />
       <workItem from="1565142319627" duration="14960000" />
-      <workItem from="1565229586426" duration="9840000" />
+      <workItem from="1565229586426" duration="10438000" />
+      <workItem from="1565318592073" duration="3307000" />
+      <workItem from="1565321961744" duration="6320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161743000" />
+    <option name="totallyTimeSpent" value="171968000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,13 +323,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32918397" />
       <window_info id="Structure" order="1" sideWeight="0.5019841" side_tool="true" weight="0.3900415" />
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49900597" weight="0.22406639" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.27478755" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.31586403" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Run" order="4" />
@@ -358,7 +342,7 @@
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.25779036" />
       <window_info anchor="bottom" id="Find" order="12" weight="0.40084985" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.08882522" />
-      <window_info anchor="right" id="Database" order="0" weight="0.43967828" />
+      <window_info anchor="right" id="Database" order="0" weight="0.2124665" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="SciView" order="2" weight="0.3297587" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
@@ -393,27 +377,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/themes/bootstrap/templates/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/typeidea-env/Lib/site-packages/xadmin/sites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://453cea5e-1bc5-43b6-a547-f6766edd39ad/schema/main/table/blog_tag" />
     <entry file="das://453cea5e-1bc5-43b6-a547-f6766edd39ad/schema/main/table/blog_post" />
     <entry file="file://$PROJECT_DIR$/blog/migrations/0006_post_created_time.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -426,13 +389,6 @@
     <entry file="das://453cea5e-1bc5-43b6-a547-f6766edd39ad/schema/main/table/auth_user" />
     <entry file="das://4c0e750c-f9c0-4aca-b12a-c0942525cb88/schema/main/table/auth_user" />
     <entry file="das://62391282-9fe0-4cde-bd03-f7f6d1376e66/schema/main/table/auth_user" />
-    <entry file="file://$PROJECT_DIR$/typeidea/settings/develop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -632,16 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -662,39 +608,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2071">
-          <caret line="109" column="37" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typeidea/storage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="152" column="1" lean-forward="true" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#642#655#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -712,10 +631,96 @@
     <entry file="file://$PROJECT_DIR$/blog/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding>
+            <element signature="e#642#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2546">
+          <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/settings/develop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_user_groups">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_user_user_permissions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_group_permissions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_permission">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2228">
+          <caret line="152" column="1" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
         </state>
       </provider>
     </entry>

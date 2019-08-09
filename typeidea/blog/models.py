@@ -141,8 +141,8 @@ class Post(models.Model):
     @staticmethod
     def latest_posts(cls, with_related=True):
         queryset = cls.objects.filter(status=cls.STATUS_NORMAL)
-        # if with_related:
-        #     queryset = queryset.select_related('owner', 'category')
+        if with_related:
+            queryset = queryset.select_related('owner', 'category')
         return queryset
 
     @classmethod
