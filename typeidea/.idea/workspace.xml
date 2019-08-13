@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11bc400e-138e-40a8-b979-c96cd0328d28" name="Default Changelist" comment="修复侧边栏评论显示bug">
       <change afterPath="$PROJECT_DIR$/typeidea/uploads/editor/4_20190813101731968952.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/blog/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/comment/block.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/comment/block.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/blocks/siderbar_comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/blocks/siderbar_comments.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/blocks/siderbar_comments.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="116" selection-start-line="2" selection-start-column="116" selection-end-line="2" selection-end-column="116" />
+              <caret line="2" column="123" selection-start-line="2" selection-start-column="123" selection-end-line="2" selection-end-column="123" />
             </state>
           </provider>
         </entry>
@@ -369,7 +365,7 @@
       <workItem from="1565229586426" duration="10438000" />
       <workItem from="1565318592073" duration="3307000" />
       <workItem from="1565321961744" duration="7085000" />
-      <workItem from="1565661811844" duration="1699000" />
+      <workItem from="1565661811844" duration="1916000" />
     </task>
     <task id="LOCAL-00001" summary="修复侧边栏评论显示bug">
       <created>1565663163243</created>
@@ -378,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565663163243</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修复显示bug">
+      <created>1565663762608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565663762608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174432000" />
+    <option name="totallyTimeSpent" value="174649000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,7 +453,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修复侧边栏评论显示bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复侧边栏评论显示bug" />
+    <MESSAGE value="修复显示bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复显示bug" />
   </component>
   <component name="editorHistoryManager">
     <entry file="das://453cea5e-1bc5-43b6-a547-f6766edd39ad/schema/main/table/xadmin_bookmark" />
@@ -802,7 +806,7 @@
     <entry file="file://$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/blocks/siderbar_comments.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="116" selection-start-line="2" selection-start-column="116" selection-end-line="2" selection-end-column="116" />
+          <caret line="2" column="123" selection-start-line="2" selection-start-column="123" selection-end-line="2" selection-end-column="123" />
         </state>
       </provider>
     </entry>
