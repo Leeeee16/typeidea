@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bc400e-138e-40a8-b979-c96cd0328d28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/typeidea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/typeidea.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/settings/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/settings/develop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/comment/block.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/comment/block.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/blocks/siderbar_comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/blocks/siderbar_comments.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,55 +50,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/typeidea/settings/base.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typeidea/themes/bootstrap/templates/comment/block.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2228">
-              <caret line="152" column="1" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
+            <state relative-caret-position="361">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_user_groups">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
-              <filtering>
-                <filter text="" />
-              </filtering>
+        <entry file="file://$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/links.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_user_user_permissions">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
-              <filtering>
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_group_permissions">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
-              <filtering>
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_permission">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
-              <filtering>
-                <filter text="" />
-              </filtering>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/blocks/siderbar_comments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="122" selection-start-line="2" selection-start-column="122" selection-end-line="2" selection-end-column="122" />
             </state>
           </provider>
         </entry>
@@ -154,9 +124,7 @@
         <option value="$PROJECT_DIR$/comment/models.py" />
         <option value="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/comment/result.html" />
         <option value="$PROJECT_DIR$/comment/templatetags/comment_block.py" />
-        <option value="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/comment/block.html" />
         <option value="$PROJECT_DIR$/comment/views.py" />
-        <option value="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/blocks/siderbar_comments.html" />
         <option value="$PROJECT_DIR$/comment/forms.py" />
         <option value="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/links.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
@@ -181,14 +149,16 @@
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/config/models.py" />
         <option value="$PROJECT_DIR$/typeidea/settings/develop.py" />
+        <option value="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/comment/block.html" />
+        <option value="$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/blocks/siderbar_comments.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="652" />
-    <option name="y" value="21" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="651" />
+    <option name="y" value="20" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,17 +177,57 @@
             <path>
               <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeidea" type="462c0819:PsiDirectoryNode" />
+              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
+              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
+              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
+              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
+              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
+              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DbGoto.DatabaseChooseByNameModel.checkBox" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -306,12 +317,13 @@
       <workItem from="1565142319627" duration="14960000" />
       <workItem from="1565229586426" duration="10438000" />
       <workItem from="1565318592073" duration="3307000" />
-      <workItem from="1565321961744" duration="6320000" />
+      <workItem from="1565321961744" duration="7085000" />
+      <workItem from="1565661811844" duration="1067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171968000" />
+    <option name="totallyTimeSpent" value="173800000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,12 +336,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32918397" />
       <window_info id="Structure" order="1" sideWeight="0.5019841" side_tool="true" weight="0.3900415" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49900597" weight="0.22406639" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49900597" visible="true" weight="0.20308311" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.31586403" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.34985834" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Run" order="4" />
@@ -342,7 +355,7 @@
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.25779036" />
       <window_info anchor="bottom" id="Find" order="12" weight="0.40084985" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.08882522" />
-      <window_info anchor="right" id="Database" order="0" weight="0.2124665" />
+      <window_info anchor="right" id="Database" order="0" weight="0.29155496" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="SciView" order="2" weight="0.3297587" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
@@ -377,10 +390,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://453cea5e-1bc5-43b6-a547-f6766edd39ad/schema/main/table/blog_post" />
-    <entry file="file://$PROJECT_DIR$/blog/migrations/0006_post_created_time.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="das://453cea5e-1bc5-43b6-a547-f6766edd39ad/schema/main/table/django_admin_log" />
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -439,13 +448,6 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/links.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -672,55 +674,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_user_groups">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
-          <filtering>
-            <filter text="" />
-          </filtering>
+        <state projectRestartId="1d421407-cb55-49e7-a682-43173c6e909c">
+          <filtering />
         </state>
       </provider>
     </entry>
     <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_user_user_permissions">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
-          <filtering>
-            <filter text="" />
-          </filtering>
+        <state projectRestartId="1d421407-cb55-49e7-a682-43173c6e909c">
+          <filtering />
         </state>
       </provider>
     </entry>
     <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_group_permissions">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
-          <filtering>
-            <filter text="" />
-          </filtering>
+        <state projectRestartId="1d421407-cb55-49e7-a682-43173c6e909c">
+          <filtering />
         </state>
       </provider>
     </entry>
     <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_permission">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
-          <filtering>
-            <filter text="" />
-          </filtering>
+        <state projectRestartId="1d421407-cb55-49e7-a682-43173c6e909c">
+          <filtering />
         </state>
       </provider>
     </entry>
     <entry file="das://3cdb8c71-d7d1-4894-a25a-4347ddefdb7c/schema/main/table/auth_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ee3d78f0-4e81-4cea-a0f4-a9eff7b4af69">
+        <state projectRestartId="1d421407-cb55-49e7-a682-43173c6e909c">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/settings/base.py">
+    <entry file="file://$PROJECT_DIR$/typeidea/themes/bootstrap/templates/comment/block.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2228">
-          <caret line="152" column="1" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
+        <state relative-caret-position="361">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/themes/bootstrap/templates/config/blocks/siderbar_comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="122" selection-start-line="2" selection-start-column="122" selection-end-line="2" selection-end-column="122" />
         </state>
       </provider>
     </entry>
